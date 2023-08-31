@@ -1,12 +1,12 @@
 -- Usuwanie istniejących tabel
 
-DROP TABLE klient;
-DROP TABLE klient_typ_konta;
-DROP TABLE adres_klienta;
-DROP TABLE zamowienie_produktu CASCADE;
-DROP TABLE zamowienie;
-DROP TABLE produkt;
-DROP TABLE producent;
+DROP TABLE IF EXISTS klient;
+DROP TABLE IF EXISTS klient_typ_konta;
+DROP TABLE IF EXISTS adres_klienta;
+DROP TABLE IF EXISTS zamowienie_produktu CASCADE;
+DROP TABLE IF EXISTS zamowienie;
+DROP TABLE IF EXISTS produkt;
+DROP TABLE IF EXISTS producent;
 
 -- Tworzenie tabeli klient
 
